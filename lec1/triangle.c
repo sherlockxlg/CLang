@@ -12,6 +12,6 @@ void main()      //———main()函数
     dime=sqrt(s*(s-x)*(s-y)*(s-z));   //——分号
     printf("三角形面积为%f\n",dime); //  8
           /*输出三角形的面积*/
-    system("pause");
+    getchar();
     return;
 }
