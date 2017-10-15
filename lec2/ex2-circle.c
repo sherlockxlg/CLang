@@ -1,9 +1,10 @@
 #include <stdio.h>
-#define PI 3.14
+//#define PI 3.14
 void main()
 {
     float r1,r2;
     float s1,s2;
+    const float PI=3.14;
     scanf("%f%f",&r1,&r2);
     s1 = PI*r1*r1;
     s2 = PI*r2*r2;
