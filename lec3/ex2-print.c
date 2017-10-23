@@ -5,13 +5,19 @@ void main()
     //gets(str);
     //scanf("%s",str);
     //printf("%s",str);
-
-    int a=3;
-    float ff=6;
+    char a;
+    do
+    {
+        scanf("%2c",&a);
+        printf("%c\n",a);
+    }
+    while(a!='?');
+    int aa=3;
+    float ff;
     double dd;
-    int f=3^5;
-    //scanf("%f",&ff);    
-    printf("%10d\n",f);   
-    fflush(stdin);
+    scanf("%3f",&ff);    
+    printf("%5.2f\n",ff);   
+    //fflush(stdin);
+    getchar();
     getchar();
 }

@@ -1,11 +1,19 @@
 #include <stdio.h>
 void main()
-{
-    char n;
-    scanf("%d",&n);
-    while(n) 
-    {
-        printf("%d\n",n); n--;
-    }
-    system("pause");
-}
+{  
+    int x,y,z; 
+    x=y=z=0; ++x&&++y&&++z;       
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    x=y=z=0; ++x||++y&&++z;       
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    x=y=z=0; ++x&&++y||++z;      
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    x=y=z=-1; ++x&&++y&&++z;       
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    x=y=z=-1; ++x||++y&&++z;      
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    x=y=z=-1; ++x&&++y||++z;
+    printf("x=%d,y=%d,z=%d\n",x,y,z);
+    getchar();
+   }
+
