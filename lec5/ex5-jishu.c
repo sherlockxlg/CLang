@@ -8,11 +8,11 @@ void main()
     k=x;
     while(i<=n)
     {
-        y+=k;
-        k=k*x/(i+1);
+        y += k;
+        k = k * x / (i + 1);
         i++;
     }
-    printf("jishu=%f\n",y);
+    printf("jishu=%f\n", y);
     getchar();
     getchar();
 }

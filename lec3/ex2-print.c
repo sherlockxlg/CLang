@@ -8,15 +8,14 @@ void main()
     char a;
     do
     {
-        scanf("%2c",&a);
-        printf("%c\n",a);
-    }
-    while(a!='?');
-    int aa=3;
+        scanf("%2c", &a);
+        printf("%c\n", a);
+    } while (a != '?');
+    int aa = 3;
     float ff;
     double dd;
-    scanf("%3f",&ff);    
-    printf("%5.2f\n",ff);   
+    scanf("%3f", &ff);
+    printf("%5.2f\n", ff);
     //fflush(stdin);
     getchar();
     getchar();
